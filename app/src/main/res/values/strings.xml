@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="str_1">"I am a string given in res/values/strings.xml"</string>
+</resources>
