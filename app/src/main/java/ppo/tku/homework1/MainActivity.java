@@ -16,10 +16,11 @@ public class MainActivity extends AppCompatActivity {
         mTextView01 = (TextView) findViewById(R.id.myTextView01);
         String str_2 = "test 測試 Android TextView";
         mTextView01.setText(str_2);
+
+        mTextView01.setText("changed text");
+        mTextView01.setTextSize(50);
         mTextView01.setTextColor(getResources().getColor(R.color.colorAccent));
+        mTextView01.setY(200);
     }
 
-    public void changeColor(View v){
-        mTextView01.setBackgroundColor(getResources().getColor(R.color.blue));
-    }
 }
